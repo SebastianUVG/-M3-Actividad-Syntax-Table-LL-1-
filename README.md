@@ -6,7 +6,6 @@ Esta actividad implementa los algoritmos de cálculo de conjuntos FIRST y FOLLOW
 
 **Curso**: Diseño de Lenguajes de Programación  
 **Actividad**: Actividad Práctica sobre FIRST, FOLLOW y Tablas de Análisis Sintáctico
-**Link del video**: https://uvggt-my.sharepoint.com/:v:/g/personal/gar22291_uvg_edu_gt/IQAXh4nbCYGhSKNeNtibHGM6AS9RTddbIqrwFW4ZiVQItcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RYQYuk
 ---
 
 ## Estructura del Proyecto
