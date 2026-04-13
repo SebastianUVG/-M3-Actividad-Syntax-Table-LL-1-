@@ -13,13 +13,15 @@ Esta actividad implementa los algoritmos de cálculo de conjuntos FIRST y FOLLOW
 
 ```
 .
-├── grammar.py                # Representación y definición de gramáticas
-├── first_follow.py           # Cálculo de conjuntos FIRST y FOLLOW
-├── parsing_table.py          # Construcción de tabla LL(1)
-├── main.py                   # Script de demostración
-├── explicacion
-├           └ explicacion.md  # Explicacion del procedimiento
-└── README.md                 # Este archivo
+├── grammar.py                              # Representación y definición de gramáticas
+├── first_follow.py                         # Cálculo de conjuntos FIRST y FOLLOW
+├── parsing_table.py                        # Construcción de tabla LL(1)
+├── main.py                                 # Script de demostración
+├────explicacion
+├              ├─ explicacion.md           # Explicación de algoritmo
+├              └─explicacion_tabla.md      # Explicacion de algoritmo de tabla
+├── EXPLICACION_TABLA_ANALISIS.md           # Explicación de tabla de análisis predictivo
+└── README.md                               # Este archivo
 ```
 
 ### Descripción de Módulos
@@ -54,6 +56,41 @@ Esta actividad implementa los algoritmos de cálculo de conjuntos FIRST y FOLLOW
 - **Análisis LL(1)**:
   - Detecta conflictos (múltiples producciones en una entrada)
   - Reporta si la gramática es LL(1) sin conflictos
+
+---
+
+## Documentación de Explicación
+
+### EXPLICACION_TABLA_ANALISIS.md
+
+Este archivo contiene una explicación detallada y paso a paso sobre:
+
+1. **¿Qué es la Tabla de Análisis Predictivo?**
+   - Estructura (filas, columnas, entradas)
+   - Propósito en análisis LL(1)
+
+2. **Algoritmo de Construcción**
+   - Pasos requeridos
+   - Algoritmo principal
+   - Detección de conflictos
+
+3. **Ejemplo Paso a Paso**
+   - Construcción completa de tabla para Expresiones Aritméticas
+   - Cálculo de cada entrada
+   - Tabla final
+
+4. **Verificación de LL(1)**
+   - Requisitos para ser LL(1)
+   - Ejemplo de conflicto
+   - Cómo identificar problemass
+
+5. **Uso de la Tabla en Análisis**
+   - Algoritmo de análisis predictivo
+   - Ejemplo de ejecución paso a paso
+   - Interpretación de resultados
+
+6. **Resumen Visual**
+   - Diagrama del proceso completo
 
 ---
 

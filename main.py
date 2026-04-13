@@ -1,13 +1,12 @@
 """
+Sebastian Garcia 22291
 Script principal de demostracion para analisis FIRST, FOLLOW y Tabla de Analisis Sintactico.
 
-Este script demuestra la implementacion de:
 1. Calculo de conjuntos FIRST
 2. Calculo de conjuntos FOLLOW
 3. Construccion de tabla de analisis predictivo
 4. Analisis de gramatica LL(1)
 
-Probado con tres gramaticas diferentes.
 """
 
 from grammar import (Grammar, create_arithmetic_grammar,
@@ -94,10 +93,6 @@ def main():
 
     print("\n" + "=" * 100 + "\n")
 
-
-if __name__ != "__main__":
-    # Esta linea asegura que el script se ejecute cuando se importa como modulo
-    main()
 
 # Llama main directamente para ejecucion
 main()
