@@ -27,30 +27,7 @@ class Grammar:
         self.start_symbol = start_symbol
         self.epsilon = 'eps'
 
-    def add_production(self, non_terminal, production_str):
-        """
-        Anade una produccion a la gramatica.
-
-        Args:
-            non_terminal: El no-terminal del lado izquierdo
-            production_str: Cadena(s) de produccion, puede contener multiples alternativas separadas por |
-                           Ejemplo: "T E'" o "id" o "eps"
-        """
-        if non_terminal not in self.productions:
-            self.productions[non_terminal] = []
-
-        # Divide por | para multiples alternativas
-        alternatives = [alt.strip() for alt in production_str.split('|')]
-
-        for alt in alternatives:
-            if alt:  # Omitir cadenas vacias
-                self.productions[non_terminal].append(alt)
-
-        self.non_terminals.add(non_terminal)
-
-        # Actualizar simbolo inicial si no esta establecido
-        if self.start_symbol is None:
-            self.start_symbol = non_terminal
+    
 
     def add_production_explicit(self, non_terminal, production_list):
         """
